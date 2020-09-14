@@ -3,21 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A569BCB4250F1E0B00ED9C69 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569BCB3250F1E0B00ED9C69 /* Presenter.swift */; };
 		A5E45BB2250BCCE00016F178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BB1250BCCE00016F178 /* AppDelegate.swift */; };
 		A5E45BB4250BCCE00016F178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BB3250BCCE00016F178 /* SceneDelegate.swift */; };
 		A5E45BB6250BCCE00016F178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BB5250BCCE00016F178 /* ViewController.swift */; };
 		A5E45BB9250BCCE00016F178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E45BB7250BCCE00016F178 /* Main.storyboard */; };
 		A5E45BBB250BCCE20016F178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E45BBA250BCCE20016F178 /* Assets.xcassets */; };
 		A5E45BBE250BCCE20016F178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E45BBC250BCCE20016F178 /* LaunchScreen.storyboard */; };
+		A5E45BC7250BCF210016F178 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BC6250BCF210016F178 /* FirstPageViewController.swift */; };
+		A5E45BCA250BCFEC0016F178 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BC9250BCFEC0016F178 /* SecondPageViewController.swift */; };
+		A5E45BCC250BD00C0016F178 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BCB250BD00C0016F178 /* ThirdPageViewController.swift */; };
+		A5E45BCE250BD0260016F178 /* FourthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BCD250BD0260016F178 /* FourthPageViewController.swift */; };
+		A5E45BD0250BD04E0016F178 /* FifthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BCF250BD04E0016F178 /* FifthPageViewController.swift */; };
+		A5E45BD3250BD0E40016F178 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E45BD2250BD0E40016F178 /* FrameView.swift */; };
 		F62814749608BE6AD0FA27F7 /* Pods_PreloadPageViewApproachDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A297DD98003938148EE68D /* Pods_PreloadPageViewApproachDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1947B21BEDC3996DFF9EACF7 /* Pods-PreloadPageViewApproachDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreloadPageViewApproachDemo.release.xcconfig"; path = "Target Support Files/Pods-PreloadPageViewApproachDemo/Pods-PreloadPageViewApproachDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A569BCB3250F1E0B00ED9C69 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		A5E45BAE250BCCE00016F178 /* PreloadPageViewApproachDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreloadPageViewApproachDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E45BB1250BCCE00016F178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E45BB3250BCCE00016F178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,12 @@
 		A5E45BBA250BCCE20016F178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E45BBD250BCCE20016F178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5E45BBF250BCCE20016F178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E45BC6250BCF210016F178 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		A5E45BC9250BCFEC0016F178 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		A5E45BCB250BD00C0016F178 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
+		A5E45BCD250BD0260016F178 /* FourthPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPageViewController.swift; sourceTree = "<group>"; };
+		A5E45BCF250BD04E0016F178 /* FifthPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthPageViewController.swift; sourceTree = "<group>"; };
+		A5E45BD2250BD0E40016F178 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		D3A297DD98003938148EE68D /* Pods_PreloadPageViewApproachDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreloadPageViewApproachDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA626C11AF067D39ED3A612 /* Pods-PreloadPageViewApproachDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreloadPageViewApproachDemo.debug.xcconfig"; path = "Target Support Files/Pods-PreloadPageViewApproachDemo/Pods-PreloadPageViewApproachDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,8 +62,15 @@
 				DBA626C11AF067D39ED3A612 /* Pods-PreloadPageViewApproachDemo.debug.xcconfig */,
 				1947B21BEDC3996DFF9EACF7 /* Pods-PreloadPageViewApproachDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A569BCB2250F1DF800ED9C69 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A569BCB3250F1E0B00ED9C69 /* Presenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		A5E45BA5250BCCE00016F178 = {
@@ -73,14 +94,11 @@
 		A5E45BB0250BCCE00016F178 /* PreloadPageViewApproachDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A5E45BC5250BCD390016F178 /* SubViewController */,
-				A5E45BB1250BCCE00016F178 /* AppDelegate.swift */,
-				A5E45BB3250BCCE00016F178 /* SceneDelegate.swift */,
-				A5E45BB5250BCCE00016F178 /* ViewController.swift */,
-				A5E45BB7250BCCE00016F178 /* Main.storyboard */,
-				A5E45BBA250BCCE20016F178 /* Assets.xcassets */,
-				A5E45BBC250BCCE20016F178 /* LaunchScreen.storyboard */,
+				A569BCB2250F1DF800ED9C69 /* Presenter */,
 				A5E45BBF250BCCE20016F178 /* Info.plist */,
+				A5E45BD1250BD0BE0016F178 /* View */,
+				A5E45BC5250BCD390016F178 /* SubViewController */,
+				A5E45BC8250BCF280016F178 /* SupportFiles */,
 			);
 			path = PreloadPageViewApproachDemo;
 			sourceTree = "<group>";
@@ -88,8 +106,34 @@
 		A5E45BC5250BCD390016F178 /* SubViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A5E45BC6250BCF210016F178 /* FirstPageViewController.swift */,
+				A5E45BC9250BCFEC0016F178 /* SecondPageViewController.swift */,
+				A5E45BCB250BD00C0016F178 /* ThirdPageViewController.swift */,
+				A5E45BCD250BD0260016F178 /* FourthPageViewController.swift */,
+				A5E45BCF250BD04E0016F178 /* FifthPageViewController.swift */,
 			);
 			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		A5E45BC8250BCF280016F178 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A5E45BB1250BCCE00016F178 /* AppDelegate.swift */,
+				A5E45BB3250BCCE00016F178 /* SceneDelegate.swift */,
+				A5E45BBA250BCCE20016F178 /* Assets.xcassets */,
+				A5E45BBC250BCCE20016F178 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A5E45BD1250BD0BE0016F178 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5E45BB7250BCCE00016F178 /* Main.storyboard */,
+				A5E45BB5250BCCE00016F178 /* ViewController.swift */,
+				A5E45BD2250BD0E40016F178 /* FrameView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B8BDF332763E48CFB89FD39B /* Frameworks */ = {
@@ -215,9 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E45BC7250BCF210016F178 /* FirstPageViewController.swift in Sources */,
 				A5E45BB6250BCCE00016F178 /* ViewController.swift in Sources */,
 				A5E45BB2250BCCE00016F178 /* AppDelegate.swift in Sources */,
+				A5E45BD3250BD0E40016F178 /* FrameView.swift in Sources */,
+				A569BCB4250F1E0B00ED9C69 /* Presenter.swift in Sources */,
+				A5E45BCC250BD00C0016F178 /* ThirdPageViewController.swift in Sources */,
 				A5E45BB4250BCCE00016F178 /* SceneDelegate.swift in Sources */,
+				A5E45BD0250BD04E0016F178 /* FifthPageViewController.swift in Sources */,
+				A5E45BCA250BCFEC0016F178 /* SecondPageViewController.swift in Sources */,
+				A5E45BCE250BD0260016F178 /* FourthPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
